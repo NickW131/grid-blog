@@ -109,6 +109,8 @@ body {
   background: #fff;
   display: grid;
   gap: 10px;
+  box-sizing: border-box;
+  overflow: scroll;
 }
 
 .card img {
@@ -138,6 +140,7 @@ body {
   font-size: 14px;
   line-height: 1.35;
   opacity: 0.95;
+  overflow-wrap: anywhere;
 }
 
 .actions {
