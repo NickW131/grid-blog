@@ -174,10 +174,6 @@ export default class App extends React.Component {
 
     return (
       <div className="page">
-        {/* TODO: 
-            Render the header like this: 
-            <Header totalPosts={posts.length} totalLikes= __?__ totalDislikes=__?__/> 
-        */}
 
         <Header totalPosts={posts.length} totalLikes={totalLikes} totalDislikes={totalDislikes} />
 
@@ -210,10 +206,6 @@ export default class App extends React.Component {
           <main className="panel" id="home">
             <h2 className="panelTitle">Latest Posts</h2>
 
-            {/* TODO:
-                Render the PostGrid like this: 
-                <PostGrid posts=__?__ onLike=__?__ onDislike={this.dislikePost} /> 
-            */}
 
             <PostGrid posts={posts} onLike={this.likePost} onDislike={this.dislikePost} />
             
